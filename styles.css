@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body {
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    color: hsl(215, 51%, 70%);
+    width: 280px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.cube {
+    height: 55%;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden ;
+}
+
+.cube:hover{
+    content: url(images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+}
+
+
+.content h4{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content h4:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 50;
+    margin-bottom: 30px;
+}
+
+.body-footer{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%); 
+}
+
+.numbers img {
+    margin-right: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time img {
+    margin-right: 5px;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    height: 12%;
+    column-gap: 15px;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+hr { 
+    border-color: hsl(215, 32%, 27%);
+    width: 230px ;
+    margin-top: 20px;
+}
+.bottom p{
+    font-size: 12px;
+}
+
+.bottom b{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.bottom b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
